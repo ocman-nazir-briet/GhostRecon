@@ -1,3 +1,25 @@
+<div align="center">
+
+```
+  ____ _   _  ___  ____ _____ ____  _____ ____ ___  _   _
+ / ___| | | |/ _ \/ ___|_   _|  _ \| ____/ ___/ _ \| \ | |
+| |  _| |_| | | | \___ \ | | | |_) |  _|| |  | | | |  \| |
+| |_| |  _  | |_| |___) || | |  _ <| |__| |__| |_| | |\  |
+ \____|_| |_|\___/|____/ |_| |_| \_\_____\____\___/|_| \_|
+```
+
+**Plugin-based recon & vulnerability scanner**
+*For authorized security testing only*
+
+[![Version](https://img.shields.io/badge/version-2.0.0-brightgreen)](CHANGELOG.md)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success)](#)
+
+</div>
+
+---
+
 # GhostRecon
 
 GhostRecon is a command-line reconnaissance and vulnerability-triage tool for
@@ -38,6 +60,18 @@ That's a baseline pass: port scan, header/cookie/TLS analysis, technology
 fingerprinting, CVE correlation, and an HTML + JSON report in `./reports`.
 Everything else — subdomain brute-forcing, directory discovery, screenshots,
 AI-written summaries, Shodan enrichment — is opt-in via flags, covered below.
+
+```text
+$ ghostrecon cytex.io --mode redteam --subdomains --screenshot --dirbrute --pdf
+
+  ____ _   _  ___  ____ _____ ____  _____ ____ ___  _   _
+ / ___| | | |/ _ \/ ___|_   _|  _ \| ____/ ___/ _ \| \ | |
+| |  _| |_| | | | \___ \ | | | |_) |  _|| |  | | | |  \| |
+| |_| |  _  | |_| |___) || | |  _ <| |__| |__| |_| | |\  |
+ \____|_| |_|\___/|____/ |_| |_| \_\_____\____\___/|_| \_|
+  GhostRecon v2.0.0 -- plugin-based recon & vulnerability scanner
+  For authorized security testing only
+```
 
 ---
 
